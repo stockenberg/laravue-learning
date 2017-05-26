@@ -1,0 +1,24 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+
+
+li a[href='']{
+  color: red !important;
+  &:after{
+    content: " --coming soon--";
+    float: right;
+  }
+}
+
+[v-cloak] {
+  display: none;
+}
+
+
+
